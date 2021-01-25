@@ -21,4 +21,9 @@ The project consists of 3 API´s that search the site data (https://swapi.dev/) 
  ### run the project
 
 Open the "Index.html" file.
+
+# Autor
+Wanessa de Souza Barros
+
+https:https://www.linkedin.com/in/wanessa-souza-barros-274230144/
  
