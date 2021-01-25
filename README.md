@@ -16,5 +16,9 @@ The project consists of 3 API´s that search the site data (https://swapi.dev/) 
  #  How to run the project
  
  ###  Clone the repository
+ git clone https://github.com/waynessab/The-Star-Wars-API.git
 
+ ### run the project
+
+Open the "Index.html" file.
  
