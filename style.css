@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#area-cabecalho {
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+}
+/*Fomatações menu*/
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+    color: black;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: yellow;
+    background: black;
+}
+body {
+    font-size: 1em;
+    /*16 px*/
+    font-family: "Trebuche MS", Arial, Helvetica, sans-serif;
+	background-color: black;
+    background-image: url("imagens/fundo.png");
+}
+	body{
+		/*display: block;
+*/		margin:8px;
+		
+	}
+	p, h2{
+    padding: 15px;
+    text-align: center; 
+}
+ /* Green */
+	button {
+    position: relative;
+    background-color: yellow;
+    border: none;
+    font-size: 28px;
+    color: black;
+    padding: 20px;
+    width:560px;
+    text-align: center;
+    overflow: center;
+    cursor: pointer;
+}
+
+ button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+	#title{
+	color: black;
+	
+	}
+	p,h1{
+	color: black;
+	align-items: center;
+	}
+	a{
+	color: preto;
+	padding:450px;
+	align-items: center;
+	text-align: center; 
+	 font-family: "Trebuche MS", Arial, Helvetica, sans-serif;
+	}
+	
